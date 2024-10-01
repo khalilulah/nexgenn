@@ -10,6 +10,15 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-dark-blue': '#08101C',
+        'custom-dark-blue-light': '#1A2A3C',
+        'custom-text-color': '#999999',
+        
+      },
+      fontFamily:{
+         clashDisplay:['var(--clash-display)'],
+         poppins:['var(--poppins)'],
+         rajdhani:['var(--rajdhani)'],
       },
     },
   },

@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -11,6 +12,21 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const clashDisplay = localFont({
+  src: "./fonts/ClashDisplay-Variable.ttf",
+  variable: "--clash-display",
+  weight: "100 900",
+}); 
+const poppins = localFont({
+  src: "./fonts/Poppins-Variable.ttf",
+  variable: "--poppins",
+  weight: "100 900",
+}); 
+const rajdhani = localFont({
+  src: "./fonts/Rajdhani-Variable.ttf",
+  variable: "--rajdhani",
+  weight: "100 900",
+}); 
 
 export const metadata = {
   title: "Create Next App",
@@ -21,8 +37,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${clashDisplay.variable} ${poppins.variable} ${rajdhani.variable}  antialiased`}
       >
+        {/* <Navbar/> */}
         {children}
       </body>
     </html>
