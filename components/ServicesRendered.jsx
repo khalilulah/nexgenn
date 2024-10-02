@@ -4,17 +4,17 @@ const services = [
   {
     icon: 'i',
     title: 'Custom Website Development',
-    description: 'Fully tailored websites built from scratch to match your brand and objectives',
+    description: 'Fully tailored websites built from scratch to match your brand and objectives.',
   },
   {
     icon: 'ii',
-    title: 'Custom Website Development',
-    description: 'Fully tailored websites built from scratch to match your brand and objectives',
+    title: ' E-commerce Solutions',
+    description: 'Seamless online stores designed to drive sales and enhance the customer experience.',
   },
   {
     icon: 'iii',
-    title: 'Custom Website Development',
-    description: 'Fully tailored websites built from scratch to match your brand and objectives',
+    title: 'Content Management Systems',
+    description: 'Easy-to-manage websites built on popular CMS platforms like WordPress.',
   },
   {
     icon: 'iv',
@@ -23,7 +23,7 @@ const services = [
   },
   {
     icon: 'v',
-    title: 'Custom Website Development',
+    title: 'E-commerce Solutions',
     description: 'Fully tailored websites built from scratch to match your brand and objectives',
   },
   {

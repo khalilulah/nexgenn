@@ -20,7 +20,7 @@ const CoreValues = () => {
         <div className=' w-[343px] border-r border-r-custom-text-color flex flex-col  items-center '>
             <div className='w-[335px] flex flex-col items-center border-b  border-b-custom-text-color'>
                 <div className='flex flex-col items-center mb-2 '>
-                <img src={Light.src} width={35} height={25} alt="Shield Icon" />
+                <img src={Light.src} width={35} height={25} alt="Light Icon" />
                 <p>Innovation</p>
                 </div>
                 <p className='w-[300px] text-justify  text-custom-text-color text-[16px] mb-5'>
@@ -41,7 +41,7 @@ const CoreValues = () => {
         {/* middle div */}
         <div className=' flex flex-col w-[482px] justify-center border-t border-t-custom-text-color border-b border-b-custom-text-color items-center '>
                 <div className='flex flex-col justify-center items-center mt-5'>
-                <img src={Trophy.src} width={35} height={25} alt="Shield Icon" />
+                <img src={Trophy.src} width={35} height={25} alt="trophy Icon" />
                 <p>Excellence</p>
                 </div>
                 <p className='w-[300px] text-justify text-custom-text-color mb-5'>We ensure that every project meets the highest standards  of performance and design.</p>
@@ -51,7 +51,7 @@ const CoreValues = () => {
         <div className=' w-[343px] border-l border-l-custom-text-color flex flex-col  items-center '>
             <div className='w-[335px] flex flex-col items-center border-b border-b-custom-text-color'>
                 <div className='flex flex-col items-center mb-2 '>
-                <img src={HandShake.src} width={35} height={25} alt="Shield Icon" />
+                <img src={HandShake.src} width={35} height={25} alt="Hand Shake Icon" />
                 <p>Collaboration</p>
                 </div>
                 <p className='w-[300px] text-justify text-custom-text-color text-[16px] mb-5'>
@@ -60,7 +60,7 @@ const CoreValues = () => {
             </div>
             <div className='w-[335px] flex flex-col items-center'>
                 <div className='flex flex-col items-center mb-2 mt-5'>
-                <img src={Smiling.src} width={35} height={25} alt="Shield Icon" />
+                <img src={Smiling.src} width={35} height={25} alt="Smiling Icon" />
                 <p>Customer Success</p>
                 </div>
                 <p className='w-[300px] text-justify text-custom-text-color'>

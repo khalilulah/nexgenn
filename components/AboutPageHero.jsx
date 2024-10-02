@@ -50,7 +50,7 @@ const AboutPageHero = () => {
         <hr className='w-48' />
       </nav>
 
-      <div className='font-clashDisplay border max-w-[1345px] m-auto'>
+      <div className='font-clashDisplay max-w-[1345px] m-auto'>
         {/* Animated div with background image */}
         <div
           className={`about-background-img w-[100vw] max-w-[1345px] bg m-auto transition-transform duration-500 ${
