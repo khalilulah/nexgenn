@@ -1,9 +1,9 @@
 import React from "react";
-import Light from "../public/assets/Light on.svg";
-import Shield from "..public/assets/Shield.svg";
-import Trophy from "..public/assets/Trophy.svg";
-import HandShake from "..public/assets/HandShake.svg";
-import Smiling from "..public/assets/Smiling.svg";
+import Light from "../public/assets/Light On.svg";
+import Shield from "../public/assets/Shield.svg";
+import Trophy from "../public/assets/Trophy.svg";
+import HandShake from "../public/assets/Handshake.svg";
+import Smiling from "../public/assets/Smiling.svg";
 
 const CoreValues = () => {
   return (
