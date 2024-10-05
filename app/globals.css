@@ -27,11 +27,22 @@ body {
     text-wrap: balance;
   }
 }
-.home-background-img{
+
+.mobile-home-background-img {
   background-size: cover;
-  background-position-x:center;
+  background-position: calc(100% + 250px) center; /* Move the image 250px to the right */
   background-image: url("https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
+
+/* For screens 640px and above */
+@media (min-width: 640px) {
+  .home-background-img {
+    background-size: cover;
+    background-position: center center; /* Center the image */
+    background-image: url("https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+}
+
 .about-background-img{
   background-size: cover;
   background-position-x:center;

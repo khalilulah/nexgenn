@@ -8,7 +8,7 @@ const services = [
   },
   {
     icon: 'ii',
-    title: ' E-commerce Solutions',
+    title: 'E-commerce Solutions',
     description: 'Seamless online stores designed to drive sales and enhance the customer experience.',
   },
   {
@@ -19,37 +19,39 @@ const services = [
   {
     icon: 'iv',
     title: 'Custom Website Development',
-    description: 'Fully tailored websites built from scratch to match your brand and objectives',
+    description: 'Fully tailored websites built from scratch to match your brand and objectives.',
   },
   {
     icon: 'v',
     title: 'E-commerce Solutions',
-    description: 'Fully tailored websites built from scratch to match your brand and objectives',
+    description: 'Fully tailored websites built from scratch to match your brand and objectives.',
   },
   {
     icon: 'vi',
     title: 'Custom Website Development',
-    description: 'Fully tailored websites built from scratch to match your brand and objectives',
+    description: 'Fully tailored websites built from scratch to match your brand and objectives.',
   },
 ];
 
 const ServicesRendered = () => {
   return (
-    <div className='mx-20 mb-[60px]'>
-      <div className='border-b-[1px] w-[450px]'>
+    <div className='mb-[60px] mx-10 lg:mx-20'>
+      <div className='border-b-[1px] w-full max-w-[450px]'>
         <h1 className='text-[30px] font-poppins font-bold border-b-[1px] w-80'>Services rendered</h1>
       </div>
-      <div className='services flex flex-wrap justify-between'>
+
+      {/* Responsive grid layout */}
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8'>
         {services.map((service, index) => (
           <div
             key={index}
-            className='border-b-2 border-b-neutral-900 border-opacity-50 w-[370px] mt-16 h-[103px]'
+            className='w-[300px] sm:w-auto border-b-2 border-b-neutral-900 border-opacity-50 p-4 h-[150px] flex flex-col justify-between'
           >
-            <div className='flex mb-5'>
-              <i className='mr-5'>{service.icon}</i>
-              <h1 className='font-poppins'>{service.title}</h1>
+            <div className='flex items-center'>
+              <i className='mr-5 text-lg'>{service.icon}</i>
+              <h1 className='font-poppins font-bold'>{service.title}</h1>
             </div>
-            <p className='text-[13px] text-custom-text-color'>{service.description}</p>
+            <p className='text-[13px] text-custom-text-color mt-2'>{service.description}</p>
           </div>
         ))}
       </div>

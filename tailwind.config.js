@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '640px', // Add a custom screen size
+        'md': '768px', // Add a custom screen size
+        'lmd': '930px', // Add a custom screen size
+        'lg': '1024px', // Add a custom screen size
+      },
+      backgroundPosition: {
+        'custom-right': 'calc(100% + 250px) center',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

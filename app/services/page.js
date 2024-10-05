@@ -10,7 +10,7 @@ const page = () => {
       <ServicesPageHero/>
       <ChooseUs/>
       <ServicesPageServicesRendered/>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

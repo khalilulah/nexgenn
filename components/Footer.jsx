@@ -6,13 +6,13 @@ import Linkedin from '../assets/Linkedin.svg'; // Direct import
 
 const Footer = () => {
   return (
-    <div className='mt-20 mb-3 max-w-[1345px] mx-20'>
-      <div className='text-center border-b border-b-neutral-700 h-80 mb-2'>
+    <div className='mt-20 mb-3 max-w-[1345px] mx-10'>
+      <div className='text-center pb-10 border-b border-b-neutral-700 h-auto mb-2'>
         <p className='text-[14px] text-custom-text-color font-poppins'>
           UPSKILL FOR A BETTER FUTURE
         </p>
-        <div className=''>
-          <h1 className='text-[50px] font-bold font-poppins'>
+        <div className='text-[40px]'>
+          <h1 className=' sm:text-[50px] font-bold font-poppins'>
             Request More Information
           </h1>
           <p className='text-[16px]'>
@@ -26,11 +26,11 @@ const Footer = () => {
           © 2024 Nexgenn. All Rights Reserved.
         </p>
       </div>
-      <div className='flex justify-between'>
-        <p className='font-poppins'>
+      <div className='flex flex-col sm:flex-row justify-between'>
+        <p className='font-poppins hidden sm:visible'>
           Nextgenn
         </p>
-        <div className='flex w-[180px] justify-between'>
+        <div className='flex w-[50%] my-5 mx-auto sm:w-[180px] justify-between'>
           {/* Using regular img tag */}
           <img src={Facebook.src} width={35} height={25} alt="Facebook Icon" />
           <img src={Insta.src} width={35} height={25} alt="Facebook Icon" />
