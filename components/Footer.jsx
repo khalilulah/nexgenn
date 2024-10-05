@@ -2,7 +2,7 @@ import React from "react";
 import Facebook from "../public/assets/Facebook.svg";
 import Youtube from "../public/assets/Youtube.svg"; // Direct import
 import Insta from "../public/assets/Instagram.svg"; // Direct import
-import Linkedin from "../public/assets/Linkedin.svg"; // Direct import
+import Linkedin from "../public/assets/linkedin.svg"; // Direct import
 
 const Footer = () => {
   return (
