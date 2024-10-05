@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${clashDisplay.variable} ${poppins.variable} ${rajdhani.variable}  antialiased`}
+        className={`bg-black ${geistSans.variable} ${geistMono.variable} ${clashDisplay.variable} ${poppins.variable} ${rajdhani.variable}  antialiased`}
       >
         {/* <Navbar/> */}
         {children}
