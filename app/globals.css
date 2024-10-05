@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -43,21 +41,21 @@ body {
   }
 }
 
-.about-background-img{
+.about-background-img {
   background-size: cover;
-  background-position-x:center;
-   background-repeat: no-repeat;
-  background-image: url("../assets/AboutImg.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-image: url("../public/assets/AboutImg.jpg");
 }
-.services-background-img{
+.services-background-img {
   background-size: cover;
-  background-position-x:center;
-   background-repeat: no-repeat;
-  background-image: url("../assets/ServicesImg.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-image: url("../public/assets/ServicesImg.jpg");
 }
-.contactUs-background-img{
+.contactUs-background-img {
   background-size: cover;
-  background-position-x:center;
-   background-repeat: no-repeat;
-  background-image: url("../assets/ContactUsImg.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-image: url("../public/assets/ContactUsImg.jpg");
 }
