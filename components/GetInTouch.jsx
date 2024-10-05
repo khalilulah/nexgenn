@@ -1,9 +1,9 @@
 import React from "react";
-import Instagram from "../public/assets/instagram (1).svg";
+import Instagram from "../public/assets/Instagram (1).svg";
 import Email from "../public/assets/Email.svg";
 import Location from "../public/assets/Location.svg";
 import Phone from "../public/assets/Phone.svg";
-import Linkedin from "../public/assets/Linkedin (1).svg";
+import Linkedin from "../public/assets/LinkedIn (1).svg";
 
 const GetInTouch = () => {
   return (
