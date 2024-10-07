@@ -65,7 +65,7 @@ const HomePageHero = () => {
             
           </div>}
           <div className='flex items-center w-full h-[90vh] max-w-[1345px]'>
-            <div className=' w-[80%] sm:w-[615px] ml-5 sm:ml-10 lmd:ml-20'>
+            <div className=' w-[85%] sm:w-[608px] ml-5 sm:ml-10 lmd:ml-20'>
               <div className='mb-[35px]'>
                 <h1 className='text-[50px] leading-none sm:text-[60px] mb-[15px] font-bold font-rajdhani sm:leading-[60px]'>
                   Building Digital Solutions That Elevate Your Brand
@@ -75,7 +75,7 @@ const HomePageHero = () => {
                 </p>
               </div>
               <div className='mt-[55px]'>
-                <button className='bg-white font-semibold text-black text-[20px] px-6 py-3 rounded-lg'>Contact Us</button>
+                <button className='bg-white font-semibold text-black text-[20px] px-9 py-3 rounded-lg'>Contact us</button>
               </div>
             </div>
           </div>
