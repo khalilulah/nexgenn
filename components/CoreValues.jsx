@@ -7,7 +7,7 @@ import Smiling from "../public/assets/Smiling.svg";
 
 const CoreValues = () => {
   return (
-    <div className="mx-10 lmd:mx-20 mt-[60px]">
+    <div className="mx-5 sm:mx-10 lmd:mx-20 mt-[60px]">
       <div className="border-b-[1px] border-b-custom-text-color w-[70%] sm:w-[450px]">
         <h1 className="text-[24px] sm:text-[30px] font-poppins font-bold border-b-[1px] w-auto sm:w-80">
           Our core values

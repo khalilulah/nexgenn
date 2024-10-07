@@ -7,7 +7,7 @@ import Linkedin from "../public/assets/LinkedIn (1).svg";
 
 const GetInTouch = () => {
   return (
-    <div className="mx-10 my-[60px] lmd:mx-20">
+    <div className="mx-5 sm:mx-10 my-[60px] lmd:mx-20">
       <div className="border-b-[1px] border-b-custom-text-color sm:w-[450px]">
         <h1 className="text-[30px] font-poppins font-bold border-b-[1px] w-80">
           Get in touch

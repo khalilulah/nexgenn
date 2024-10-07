@@ -3,7 +3,7 @@ import ServicesPageLeftImg from "../public/assets/ServicesPageLeftImg.svg";
 
 const ServicesPageServicesRendered = () => {
   return (
-    <div className="mx-10 lmd:mx-20 relative ">
+    <div className="mx-5 sm:mx-10 lmd:mx-20 relative ">
       <div className="border-b-[1px] border-b-custom-text-color sm:w-[450px] sm:mb-5">
         <h1 className="text-[30px] font-poppins font-semibold border-b-[1px] w-80">
           Services rendered

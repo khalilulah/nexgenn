@@ -35,7 +35,7 @@ const services = [
 
 const ServicesRendered = () => {
   return (
-    <div className='mb-[60px] mx-10 lg:mx-20'>
+    <div className='mb-[60px] mx-5 sm:mx-10 lg:mx-20'>
       <div className='border-b-[1px] w-full max-w-[450px]'>
         <h1 className='text-[30px] font-poppins font-bold border-b-[1px] w-80'>Services rendered</h1>
       </div>

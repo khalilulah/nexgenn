@@ -4,7 +4,7 @@ import Binoculars from "../public/assets/Binoculars.svg";
 
 const MissionAndVision = () => {
   return (
-    <div className="mb-24 mx-10 lmd:mx-20 mt-[60px]">
+    <div className="mb-24 mx-5 sm:mx-10 lmd:mx-20 mt-[60px]">
       <div className="border-b-[1px] max-w-[540px] mb-[50px] border-b-custom-text-color">
         <h1 className="text-[30px] font-poppins font-bold border-b-[1px]  w-80">
           Mission & vision

@@ -2,7 +2,7 @@ import React from 'react'
 
 const GeneralOverview = () => {
   return (
-    <div className='my-[52px] mx-10 lmd:mx-20'>
+    <div className='my-[52px] mx-5 sm:mx-10 lmd:mx-20'>
       <div className=' mb-10 font-poppins'>
        <h1 className='text-[30px] font-bold'>
         General overview

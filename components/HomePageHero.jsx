@@ -23,7 +23,7 @@ const HomePageHero = () => {
     <div className=''>
       <nav className='font-clashDisplay w-full max-w-[1345px] m-auto bg-black'>
         <div className='w-full max-w-[1345px] m-auto h-[100vh]'>
-          <div className='flex h-16 mx-10 lmd:mx-20 items-center justify-between'>
+          <div className='flex h-16 mx-5 sm:mx-10 lmd:mx-20 items-center justify-between'>
             <Link href='/' className='text-[20px] '>Nextgenn</Link>
             <button onClick={toggleDiv} className='text-[20px] '>close</button>
           </div>
@@ -59,13 +59,13 @@ const HomePageHero = () => {
 >
           
           {isOpen ? <div>
-          </div>:<div className='flex h-16 mx-10 lmd:mx-20 items-center justify-between'>
+          </div>:<div className='flex h-16 mx-5 sm:mx-10 lmd:mx-20 items-center justify-between'>
             <Link href='/' className=' text-[20px] '>Nextgenn</Link>
              <button onClick={toggleDiv} className=' text-[20px] '>Menu</button>
             
           </div>}
           <div className='flex items-center w-full h-[90vh] max-w-[1345px]'>
-            <div className=' w-[80%] sm:w-[608px] ml-10 lmd:ml-20'>
+            <div className=' w-[80%] sm:w-[615px] ml-5 sm:ml-10 lmd:ml-20'>
               <div className='mb-[35px]'>
                 <h1 className='text-[50px] leading-none sm:text-[60px] mb-[15px] font-bold font-rajdhani sm:leading-[60px]'>
                   Building Digital Solutions That Elevate Your Brand

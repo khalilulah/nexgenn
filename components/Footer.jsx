@@ -6,7 +6,7 @@ import Linkedin from "../public/assets/linkedin.svg"; // Direct import
 
 const Footer = () => {
   return (
-    <div className="mt-20 mb-3 max-w-[1345px] mx-10">
+    <div className="lmd:mt-20 mb-3 max-w-[1345px] mx-5 sm:mx-10">
       <div className="text-center pb-10 border-b border-b-neutral-700 h-auto mb-2">
         <p className="text-[14px] text-custom-text-color font-poppins">
           UPSKILL FOR A BETTER FUTURE
