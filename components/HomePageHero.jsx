@@ -65,8 +65,8 @@ const HomePageHero = () => {
             
           </div>}
           <div className='flex items-center w-full h-[90vh] max-w-[1345px]'>
-            <div className=' w-[85%] sm:w-[608px] ml-5 sm:ml-10 lmd:ml-20'>
-              <div className='mb-[35px]'>
+            <div className=' w-[85%] -mt-16 sm:mt-0 sm:w-[608px] ml-5 sm:ml-10 lmd:ml-20'>
+              <div className='mb-[35px] '>
                 <h1 className='text-[50px] leading-none sm:text-[60px] mb-[15px] font-bold font-rajdhani sm:leading-[60px]'>
                   Building Digital Solutions That Elevate Your Brand
                 </h1>
