@@ -48,7 +48,7 @@ const ContactUsPageHero = () => {
         <hr className="w-32" />
         <div className="contact flex flex-col justify-center h-[9vh] pl-20">
           <h1>Reach Us</h1>
-          <div className='flex flex-col justify-between w-[330px] mt-[10px]'>
+          <div className='flex flex-col justify-between  w-[220px] mt-[10px]'>
             <p className='text-[12px]'>johndoe@gmail.com</p>
             <div className='flex'>
             <p className='text-[12px] mr-2'>+234-567-890-12</p>
