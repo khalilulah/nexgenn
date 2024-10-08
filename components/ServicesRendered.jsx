@@ -35,9 +35,9 @@ const services = [
 
 const ServicesRendered = () => {
   return (
-    <div className='mb-[60px] mx-5 sm:mx-10 lg:mx-20'>
-      <div className='border-b-[1px] w-full max-w-[450px]'>
-        <h1 className='text-[30px] font-poppins font-bold border-b-[1px] w-80'>Services rendered</h1>
+    <div className='mx-5 sm:mx-10 lg:mx-20'>
+      <div className='relative h-10 border-b border-b-custom-text-color sm:w-[450px]'>
+        <h1 className='absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px] w-[65%] border-b-[3px] border-b-custom-text-color'>Services rendered</h1>
       </div>
 
       {/* Responsive grid layout */}

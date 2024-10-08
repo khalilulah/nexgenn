@@ -8,11 +8,10 @@ import Smiling from "../public/assets/Smiling.svg";
 const CoreValues = () => {
   return (
     <div className="mx-5 sm:mx-10 lmd:mx-20 mt-[60px]">
-      <div className="border-b-[1px] border-b-custom-text-color w-[70%] sm:w-[450px]">
-        <h1 className="text-[24px] sm:text-[30px] font-poppins font-bold border-b-[1px] w-auto sm:w-80">
-          Our core values
-        </h1>
+      <div className='relative mb-5 h-10 border-b border-b-custom-text-color sm:w-[450px]'>
+        <h1 className='absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px] w-[65%] border-b-[3px] border-b-custom-text-color'>Our core values</h1>
       </div>
+          
 
       {/* core values div */}
       <main className="flex flex-wrap md:mt-10 lmd:mt-[0px] flex-col m-auto h-auto md:flex-row items-center lmd:h-[484px]">

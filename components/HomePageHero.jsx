@@ -21,14 +21,14 @@ const HomePageHero = () => {
 
   return (
     <div className=''>
-      <nav className='font-clashDisplay w-full max-w-[1345px] m-auto bg-black'>
-        <div className='w-full max-w-[1345px] m-auto h-[100vh]'>
+      <nav className='font-clashDisplay w-full max-w-[1345px] h-[100vh] m-auto bg-black'>
+        <div className='w-full max-w-[1345px] m-auto h-[90vh]'>
           <div className='flex h-16 mx-5 sm:mx-10 lmd:mx-20 items-center justify-between'>
             <Link href='/' className='text-[20px] '>Nextgenn</Link>
             <button onClick={toggleDiv} className='text-[20px] '>close</button>
           </div>
 
-          <div className='flex flex-wrap w-full lmd:full h-[90vh] max-w-[1345px]'>
+          <div className='flex flex-wrap w-full lmd:full h-[80vh]  max-w-[1345px]'>
             {links.map((link) => {
               return (
                 <Link href={link.href} key={link.label} className='h-1/2 flex justify-center items-center w-1/2 hover:bg-neutral-950'>
@@ -39,12 +39,14 @@ const HomePageHero = () => {
           </div>
         </div>
         <hr className='w-32' />
-        <div className='contact flex flex-col justify-center h-28 pl-20'>
+        <div className='contact flex flex-col justify-center h-[9vh] pl-20'>
           <h1>Reach Us</h1>
-          <div className='flex flex-col sm:flex-row justify-between sm:w-[330px] mt-[10px]'>
+          <div className='flex flex-row justify-between w-[330px] mt-[10px]'>
             <p className='text-[12px]'>johndoe@gmail.com</p>
+            <div className='flex'>
+            <p className='text-[12px] mr-2'>+234-567-890-12</p>
             <p className='text-[12px]'>+234-567-890-12</p>
-            <p className='text-[12px]'>+234-567-890-12</p>
+            </div>
           </div>
         </div>
         <hr className='w-48' />
@@ -53,7 +55,7 @@ const HomePageHero = () => {
       <div className='font-clashDisplay w-full max-w-[1347px] m-auto'>
         {/* Animated div with background image */}
         <div
-  className={`w-full max-w-[1347px] transition-transform duration-500 ${
+  className={`w-full max-w-[1347px] transition-transform duration-500 h-[100vh] ${
     isOpen ? 'translate-y-0' : '-translate-y-full absolute'
   } bg-[url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] sm:bg-[url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-custom-right sm:bg-center`}
 >
@@ -79,7 +81,7 @@ const HomePageHero = () => {
               </div>
             </div>
           </div>
-          <div className='contact flex flex-col justify-center w-0 h-32 pl-20'>
+          <div className='contact flex flex-col justify-center h-32 pl-20'>
           </div>
         </div>
       </div>

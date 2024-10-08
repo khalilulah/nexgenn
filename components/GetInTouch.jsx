@@ -7,20 +7,20 @@ import Linkedin from "../public/assets/LinkedIn (1).svg";
 
 const GetInTouch = () => {
   return (
-    <div className="mx-5 sm:mx-10 my-[60px] lmd:mx-20">
-      <div className="border-b-[1px] border-b-custom-text-color sm:w-[450px]">
-        <h1 className="text-[30px] font-poppins font-bold border-b-[1px] w-80">
-          Get in touch
-        </h1>
-      </div>
+    <div className="mx-5 sm:mx-10 mt-[60px] lmd:mx-20">
+      <div className="relative h-10 border-b border-b-custom-text-color sm:w-[450px]">
+  <h1 className="absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px] w-[60%] border-b-[3px] border-b-custom-text-color">
+    Get in touch
+  </h1>
+</div>
 
       {/* Use flex-wrap to allow items to wrap into rows */}
       <div className="flex flex-wrap">
         {/* First column */}
         <div className="w-full justify-end lmd:w-1/1 lg:w-1/3 h-[300px] flex  flex-col">
-          <div className="mb-[20px] w-[90%] bg-white text-black flex lg:my-auto p-5 rounded-xl">
-            <img src={Email.src} width={55} height={35} alt="Email Icon" />
-            <div className="ml-3 mt-1">
+          <div className="mb-[20px] px-auto w-[90%] bg-white text-black flex lg:my-auto p-5 rounded-xl">
+            <img src={Email.src} width={55} height={35} alt="Email Icon " />
+            <div className="ml-3 my-auto">
               <h1 className="text-custom-text-color">Email</h1>
               <p className="font-semibold text-[16px] lg:text-[14px]">
                 email@example.com
@@ -34,7 +34,7 @@ const GetInTouch = () => {
               height={35}
               alt="Location Icon"
             />
-            <div className="ml-3 mt-1">
+            <div className="ml-3 my-auto">
               <h1 className="text-custom-text-color">Location</h1>
               <p className="font-semibold">123 Street Name, Lagos, Nigeria</p>
             </div>
@@ -81,7 +81,7 @@ const GetInTouch = () => {
               height={35}
               alt="LinkedIn Icon"
             />
-            <div className="ml-3 mt-1">
+            <div className="ml-3 my-auto">
               <h1 className="text-custom-text-color">LinkedIn</h1>
               <p className="font-semibold">Username</p>
             </div>

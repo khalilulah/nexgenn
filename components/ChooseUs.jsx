@@ -3,8 +3,8 @@ import React from 'react'
 const ChooseUs = () => {
   return (
     <div className='mx-5 sm:mx-10 lmd:mx-20 my-20'>
-      <div className='border-b-[1px] border-b-custom-text-color sm:w-[450px]'>
-        <h1 className='text-[30px] font-poppins font-semibold border-b-[1px] w-80'>Why choose us?</h1>
+      <div className='border-b-[1px] border-b-custom-text-color relative h-10 sm:w-[450px]'>
+        <h1 className='text-[30px] pb-[40px] font-poppins font-semibold absolute bottom-0 border-b-[3px] border-b-custom-text-color w-80 h-[100%] mb-[-2px] sm:w-[60%]'>Why choose us?</h1>
       </div>
       <p className='my-5 font-light'>
         At <b className='font-bold'>Nexgenn</b>, we don’t just build websites – we craft digital experiences that <b className='font-bold'>elevate</b> your business and 

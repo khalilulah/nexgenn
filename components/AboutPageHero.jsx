@@ -19,18 +19,18 @@ const AboutPageHero = () => {
   };
   return (
     <div className="">
-      <nav className="font-clashDisplay w-full max-w-[1345px] m-auto bg-black">
-        <div className="w-full max-w-[1345px] m-auto h-[100vh]">
-          <div className="flex h-16 mx-5 sm:mx-10 lmd:mx-20 items-center justify-between">
-            <Link href="/" className="text-[20px] ">
+      <nav className="font-clashDisplay w-full max-w-[1345px] m-auto h-[100vh] bg-black">
+        <div className="w-full max-w-[1345px] m-auto h-[90vh]">
+          <div className="flex h-16 mx-5 sm:mx-10 lmd:mx-20 pt-5 justify-between">
+            <Link href="/" className="text-[20px] h-0">
               Nextgenn
             </Link>
-            <button onClick={toggleDiv} className="text-[20px] ">
+            <button onClick={toggleDiv} className="text-[20px] h-0">
               close
             </button>
           </div>
 
-          <div className="flex flex-wrap w-full lmd:full h-[90vh] max-w-[1345px]">
+          <div className="flex flex-wrap w-full lmd:full h-[80vh] max-w-[1345px]">
             {links.map((link) => {
               return (
                 <Link
@@ -45,12 +45,14 @@ const AboutPageHero = () => {
           </div>
         </div>
         <hr className="w-32" />
-        <div className="contact flex flex-col justify-center h-28 pl-20">
+        <div className="contact flex flex-col justify-center h-[9vh] pl-20">
           <h1>Reach Us</h1>
-          <div className="flex flex-col sm:flex-row justify-between sm:w-[330px] mt-[10px]">
-            <p className="text-[12px]">johndoe@gmail.com</p>
-            <p className="text-[12px]">+234-567-890-12</p>
-            <p className="text-[12px]">+234-567-890-12</p>
+          <div className='flex flex-row justify-between w-[330px] mt-[10px]'>
+            <p className='text-[12px]'>johndoe@gmail.com</p>
+            <div className='flex'>
+            <p className='text-[12px] mr-2'>+234-567-890-12</p>
+            <p className='text-[12px]'>+234-567-890-12</p>
+            </div>
           </div>
         </div>
         <hr className="w-48" />
@@ -59,18 +61,18 @@ const AboutPageHero = () => {
       <div className="font-clashDisplay w-full max-w-[1347px] m-auto">
         {/* Animated div with background image */}
         <div
-          className={`w-full max-w-[1347px] transition-transform duration-500 ${
+          className={`w-full max-w-[1347px] transition-transform duration-500 h-[100vh] ${
             isOpen ? "translate-y-0" : "-translate-y-full absolute"
           } bg-[url('../public/assets/AboutImg.jpg')] sm:bg-[url('../public/assets/AboutImg.jpg')] bg-cover bg-custom-right sm:bg-center`}
         >
           {isOpen ? (
             <div></div>
           ) : (
-            <div className="flex h-16 mx-5 sm:mx-10 lmd:mx-20 items-center justify-between">
-              <Link href="/" className=" text-[20px] ">
+            <div className="flex h-16 mx-5 sm:mx-10 lmd:mx-20 pt-3 justify-between">
+              <Link href="/" className=" text-[20px] h-0">
                 Nextgenn
               </Link>
-              <button onClick={toggleDiv} className=" text-[20px] ">
+              <button onClick={toggleDiv} className=" text-[20px] h-0">
                 Menu
               </button>
             </div>
@@ -84,7 +86,6 @@ const AboutPageHero = () => {
               </div>
             </div>
           </div>
-          <div className="contact flex flex-col justify-center w-0 h-32 pl-20"></div>
         </div>
       </div>
     </div>
