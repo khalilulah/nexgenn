@@ -62,8 +62,8 @@ const AboutPageHero = () => {
         {/* Animated div with background image */}
         <div
           className={`w-full max-w-[1347px] transition-transform duration-500 h-[100vh] ${
-            isOpen ? "translate-y-0" : "-translate-y-full absolute"
-          }black-before-load bg-[url('../public/assets/AboutImg.jpg')] sm:bg-[url('../public/assets/AboutImg.jpg')] bg-cover bg-custom-right sm:bg-center`}
+            isOpen ? "translate-y-0" : "-translate-y-full absolute black-before-load"
+          } bg-[url('../public/assets/AboutImg.jpg')] sm:bg-[url('../public/assets/AboutImg.jpg')] bg-cover bg-custom-right sm:bg-center`}
         >
           {isOpen ? (
             <div></div>

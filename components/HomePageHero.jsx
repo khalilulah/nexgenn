@@ -56,8 +56,8 @@ const HomePageHero = () => {
         {/* Animated div with background image */}
         <div
   className={`w-full max-w-[1347px] transition-transform duration-500 h-[100vh] ${
-    isOpen ? 'translate-y-0' : '-translate-y-full absolute'
-  }black-before-load bg-[url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] sm:bg-[url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-custom-right sm:bg-center`}
+    isOpen ? 'translate-y-0' : '-translate-y-full absolute black-before-load'
+  } bg-[url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] sm:bg-[url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-custom-right sm:bg-center`}
 >
           
           {isOpen ? <div>

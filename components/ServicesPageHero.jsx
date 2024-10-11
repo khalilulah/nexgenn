@@ -62,8 +62,8 @@ const ServicesPageHero = () => {
         {/* Animated div with background image */}
         <div
           className={`w-full max-w-[1347px] transition-transform duration-500 h-[100vh] ${
-            isOpen ? "translate-y-0" : "-translate-y-full absolute"
-          }black-before-load bg-[url('../public/assets/ServicesImg.jpg')] sm:bg-[url('../public/assets/ServicesImg.jpg')] bg-cover bg-center`}
+            isOpen ? "translate-y-0" : "-translate-y-full absolute black-before-load"
+          } bg-[url('../public/assets/ServicesImg.jpg')] sm:bg-[url('../public/assets/ServicesImg.jpg')] bg-cover bg-center`}
         >
           {isOpen ? (
             <div></div>
