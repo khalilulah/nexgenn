@@ -5,7 +5,7 @@ const ServicesPageServicesRendered = () => {
   return (
     <div className="mx-5 mb-10 sm:mb-10 sm:mx-10 lmd:mx-20 relative ">
       <div className='relative h-10 border-b mb-3 border-b-custom-text-color sm:w-[450px]'>
-        <h1 className='absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px] w-[65%] border-b-[3px] border-b-custom-text-color'>Services rendered</h1>
+        <h1 className='absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px]  w-[98%] sm:w-[65%] border-b-[3px] border-b-custom-text-color'>Services rendered</h1>
       </div>
       <p>
         We offer a comprehensive suite of services to meet all your digital

@@ -6,7 +6,7 @@ const MissionAndVision = () => {
   return (
     <div className="mx-5 sm:mx-10 lmd:mx-20 mt-[60px]">
       <div className='relative mb-[50px] h-10 border-b border-b-custom-text-color sm:w-[450px]'>
-        <h1 className='absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px] w-[65%] border-b-[3px] border-b-custom-text-color'>Mission & vision</h1>
+        <h1 className='absolute bottom-0 text-[30px] font-poppins font-bold h-[100%] mb-[-2px]  w-[98%] sm:w-[65%] border-b-[3px] border-b-custom-text-color'>Mission & vision</h1>
       </div>
           
       <main className="flex flex-col md:flex-row justify-between">
