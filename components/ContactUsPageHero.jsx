@@ -64,7 +64,7 @@ const ContactUsPageHero = () => {
         <div
           className={`w-full max-w-[1347px] transition-transform duration-500 h-[100vh] ${
             isOpen ? "translate-y-0" : "-translate-y-full absolute"
-          } bg-[url('../public/assets/ContactUsImg.jpg')] sm:bg-[url('../public/assets/ContactUsImg.jpg')] bg-cover bg-center`}
+          }black-before-load bg-[url('../public/assets/ContactUsImg.jpg')] sm:bg-[url('../public/assets/ContactUsImg.jpg')] bg-cover bg-center`}
         >
           {isOpen ? (
             ""
